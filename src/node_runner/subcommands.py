@@ -14,7 +14,7 @@ LOG = logging.getLogger(__name__)
 @task(help={
     "host_list": "comma seperated hostnames or TSV FILE containing hostnames in the first column",
     "cmd": "command to run on each host/node",
-    "hide": "hide output of command[stderr/stdout/both]"
+    "hide": "hide output of command, stderr/stdout/both[None]"
 })
 def execute(c, host_list, cmd, hide=None):
     """
