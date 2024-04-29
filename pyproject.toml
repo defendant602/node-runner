@@ -18,7 +18,7 @@ classifiers = [
 ]
 license = {text = "MIT license"}
 dependencies = [
-    "fabric"
+    "fabric>=3.2.2"
 ]
 
 [project.optional-dependencies]
@@ -30,10 +30,7 @@ dev = [
 ]
 
 [project.urls]
-
-bugs = "https://github.com/audreyr/tester/issues"
-changelog = "https://github.com/audreyr/tester/blob/master/changelog.md"
-homepage = "https://github.com/audreyr/tester"
+homepage = "https://github.com/defendant602/node-runner"
 
 
 [project.scripts]
